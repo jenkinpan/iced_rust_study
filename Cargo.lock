@@ -3,6 +3,13 @@
 version = 3
 
 [[package]]
+name = "Login-Page"
+version = "0.1.0"
+dependencies = [
+ "iced",
+]
+
+[[package]]
 name = "ab_glyph"
 version = "0.2.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1047,13 +1054,6 @@ dependencies = [
  "iced_futures",
  "raw-window-handle",
  "thiserror",
-]
-
-[[package]]
-name = "iced_rust"
-version = "0.1.0"
-dependencies = [
- "iced",
 ]
 
 [[package]]
